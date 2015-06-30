@@ -1,0 +1,30 @@
+{
+  "name": "cssmods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors",
+    "prod": "webpack -p --progress --colors",
+    "start": "npm run dev"
+  },
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "babel-loader": "^5.2.2",
+    "basscss": "^7.0.0",
+    "classnames": "^2.1.2",
+    "css-loader": "^0.15.1",
+    "cssnext-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "postcss-custom-media": "^4.1.0",
+    "postcss-custom-properties": "^4.0.0",
+    "postcss-custom-selectors": "^2.1.1",
+    "postcss-import": "^6.0.0",
+    "postcss-loader": "^0.5.1",
+    "react": "^0.13.3",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
